@@ -4,10 +4,10 @@ import numpy as np
 class LinRegLearner(object):
 
     def __init__(self, verbose = False):
-        pass # move along, these aren't the drones you're looking for
+        pass # Nothing to do at the constructor
 
     def author(self):
-        return 'dsivakumar6' # replace tb34 with your Georgia Tech username
+        return 'Deepika'
 
     def addEvidence(self,dataX,dataY):
         """
@@ -32,4 +32,4 @@ class LinRegLearner(object):
         return (self.model_coefs[:-1] * points).sum(axis = 1) + self.model_coefs[-1]
 
 if __name__=="__main__":
-    print "the secret clue is 'zzyzx'"
+    print "Main in Linear Regression Learner"
