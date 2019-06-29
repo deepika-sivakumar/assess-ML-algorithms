@@ -9,14 +9,16 @@ import numpy as np
 from DTLearner import DTLearner # From module "DTLearner" (filename) import class "DTLearner"
 
 class RTLearner(DTLearner):
-
+    
+    # Constructor
     def __init__(self, leaf_size, verbose = False):
+        # Call Decision tree, since all the steps are same except feature selection
         DTLearner.__init__(self, leaf_size, verbose)
 
     def author(self):
-        return 'dsivakumar6' # Georgia Tech username
+        return 'Deepika'
 
-    # To calculate the best feature random
+    # To select the best feature randomly
     def findBestFeature(self, dataX, dataY):
         total_features = int(dataX.shape[1]) # Gives the no of features to select from
         features_array = np.arange(total_features) # Store the features in an array
