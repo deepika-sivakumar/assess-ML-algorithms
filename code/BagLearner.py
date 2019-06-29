@@ -25,7 +25,7 @@ class BagLearner(object):
             self.learnerEnsemble.append(self.learner(**self.kwargs))
 
     def author(self):
-        return 'dsivakumar6' # Georgia Tech username
+        return 'Deepika'
 
     def addEvidence(self,dataX,dataY):
         # Concatenate the two arrays
@@ -56,4 +56,4 @@ class BagLearner(object):
         return Y
 
 if __name__=="__main__":
-    print "the secret clue is 'zzyzx'"
+    print "Main in Bootstrap Aggregating Learner"
