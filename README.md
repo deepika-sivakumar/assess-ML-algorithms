@@ -1,7 +1,7 @@
 # Assess Machine Learning Algorithms
 
 ### Problem Description:
-To implement Decision Tree Learner, Random Tree Learner and Bootstrap Aggregating Learner for Prediction problems(using feature selection methods).
+To implement Decision Tree Learner, Random Tree Learner and Bootstrap Aggregating Learner from scratch for Prediction problems(using feature selection methods).
 
 ### Dataset: 
 Various stock index returns from Istanbul Stock Exchange from the UCI Machine Learning Data Repository.
@@ -19,7 +19,7 @@ Various stock index returns from Istanbul Stock Exchange from the UCI Machine Le
 | X - Feature | EU | MSCI European index |
 | Y - Predict | EM | MSCI emerging markets index |
 
-<br/> Our goal is to predict the MSCI emerging markets index based on other index returns.
+Our goal is to predict the MSCI emerging markets index based on other index returns.
 
 ### Solving the problem:
 * Import data and split data for training and testing
