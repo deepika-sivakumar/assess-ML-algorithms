@@ -22,6 +22,7 @@ Various stock index returns from Istanbul Stock Exchange from the UCI Machine Le
 Our goal is to predict the MSCI emerging markets index based on other index returns.
 
 ### Solving the problem:
+* For this problem, we are going to ignore the time-series nature of data and use it as a static data.
 * Import data and split data for training and testing
 * Framing the prediction problem as a **Regression problem** to be solved.
 * Implement each learner as a separate class.
