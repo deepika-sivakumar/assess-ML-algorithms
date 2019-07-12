@@ -4,7 +4,22 @@
 To implement Decision Tree Learner, Random Tree Learner and Bootstrap Aggregating Learner for Prediction problems(using feature selection methods).
 
 ### Dataset: 
-To predict the returns for MSCI Emerging Markets (EM) index based on previous index returns from the UCI Machine Learning Data Repository.
+Various stock index returns from Istanbul Stock Exchange from the UCI Machine Learning Data Repository.
+<br/> https://archive.ics.uci.edu/ml/datasets/ISTANBUL+STOCK+EXCHANGE
+
+| Variable | Column Name in Dataset | Denotes |
+| -------- |:----------------------:| ----------------- |
+| X - Feature | ISE-TL | Istanbul stock exchange national 100 index (Currency: Turkish lira) |
+| X - Feature | ISE-USD | Istanbul stock exchange national 100 index (Currency: USD) |
+| X - Feature | SP | S&P 500 index |
+| X - Feature | DAX | Stock market return index of Germany |
+| X - Feature | FTSE | Stock market return index of UK |
+| X - Feature | NIKKEI | Stock market return index of Japan |
+| X - Feature | BOVESPA | Stock market return index of Brazil |
+| X - Feature | EU | MSCI European index |
+| Y - Predict | EM | MSCI emerging markets index |
+
+<br/> Our goal is to predict the MSCI emerging markets index based on other index returns.
 
 ### Solving the problem:
 * Import data and split data for training and testing
